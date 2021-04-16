@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swap-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  max-width: 1080px;
+  margin: 0px auto;
+
+  @include breakpoint(mobile) {
+    padding: 50px 0;
+  }
+}

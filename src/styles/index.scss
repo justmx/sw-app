@@ -1,0 +1,25 @@
+@import "./base/mixin";
+@import "./components/app";
+@import "./components/detail-section";
+@import "./components/sw-table";
+
+body,
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  padding-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/sw-bg.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

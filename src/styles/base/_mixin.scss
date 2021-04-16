@@ -1,0 +1,31 @@
+@mixin breakpoint($class) {
+  @if $class == mobile {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+
+  @if $class == tablet {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $class == handheld {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+
+  @if $class == desktop {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @if $class == filterbreak {
+    @media (max-width: 1060px) {
+      @content;
+    }
+  }
+}

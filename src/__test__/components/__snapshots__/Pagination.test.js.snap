@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RowPaginationItem should render row itme 1`] = `
+<div
+  className="pagination"
+>
+  <span
+    className="pagination-title"
+  >
+    Pagination
+  </span>
+  <span
+    className="pagination-button"
+    onClick={[MockFunction]}
+  >
+    &lt; Back
+  </span>
+  <span
+    className="pagination-button"
+    onClick={[MockFunction]}
+  >
+    Next &gt;
+  </span>
+</div>
+`;

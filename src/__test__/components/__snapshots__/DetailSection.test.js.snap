@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render DetailSection should render DetailSection 1`] = `
+<div
+  className="swap-detail-container"
+>
+  <h2>
+    Detail section
+  </h2>
+  <div
+    className="swap-detail"
+  >
+    <div
+      className="swap-detail-info"
+    >
+      Name: 
+      <span>
+        Jack
+      </span>
+    </div>
+    <div
+      className="swap-detail-info"
+    >
+      Height: 
+      <span>
+        177
+      </span>
+    </div>
+    <div
+      className="swap-detail-info"
+    >
+      Birth year: 
+      <span />
+    </div>
+    <div
+      className="swap-detail-info"
+    >
+      Gender: 
+      <span />
+    </div>
+    <div
+      className="swap-detail-info"
+    >
+      List of films:
+      <li
+        key="0"
+      >
+        The Empire Strikes Back
+      </li>
+      <li
+        key="1"
+      >
+        Return of the Jedi
+      </li>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,66 @@
+.sw-table-section {
+  h1 {
+    color: #ffffff;
+    font-size: 45px;
+
+    @include breakpoint(mobile) {
+      font-size: 25px;
+    }
+  }
+}
+.pagination {
+  text-align: right;
+
+  .pagination-title {
+    color: white;
+  }
+
+  .pagination-button {
+    cursor: pointer;
+    margin: 0 10px;
+    color: black;
+    padding: 3px 9px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+
+    &:hover {
+      background-color: #1c5397;
+      color: white;
+    }
+  }
+}
+
+.table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+
+  @include breakpoint(mobile) {
+    min-width: 320px;
+  }
+}
+
+.row {
+  display: table-row;
+  background: #f6f6f6;
+  cursor: pointer;
+
+  &:nth-of-type(odd) {
+    background: #e9e9e9;
+  }
+
+  &.blue {
+    background: #1c5397;
+    font-weight: 900;
+    color: #ffffff;
+  }
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
